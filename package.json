@@ -8,7 +8,9 @@
     "start:frontend": "cd Frontend && npm run serve",
     "start:backend": "cd Backend && npm start",
     "build:frontend": "cd Frontend && npm run build",
-    "start:prod": "cd Backend && npm run start:prod"
+    "build:backend": "node .",
+    "build": "npm run build:backend && npm run build:frontend",
+    "start:prod": "cd Published && npm run start:prod"
   },
   "repository": {
     "type": "git"
@@ -18,9 +20,10 @@
   "license": "ISC",
   "dependencies": {
     "concurrently": "^4.0.0",
+    "ncp": "^2.0.0",
     "node": "^16.13.2"
   },
   "engines": {
-    "node": "v18.13.0" 
+    "node": "v18.13.0"
   }
 }

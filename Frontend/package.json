@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --dest=../Backend/www",
+    "build": "vue-cli-service build --dest=../Published/www",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
