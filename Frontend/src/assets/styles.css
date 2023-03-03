@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:300,400,600');
+html, body {
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+.card,
+.card-header,
+.form-control,
+.btn,
+.alert {
+    border-radius: 0 !important;
+}
+
+.card {
+    border-color: #17A2B8;
+}
+
+.card-header {
+    background-color: #17A2B8;
+    color: #FFFFFF;
+}
+
+label {
+    color: #6C757D;
+    font-weight: 300;
+}
+
+.form-control,
+.alert {
+    font-weight: 300;
+}
+
+.alertify .ajs-header,
+.alertify .ajs-footer .ajs-buttons .ajs-button.ajs-ok {
+    color: #17A2B8;
+}
+
+.table th {
+    color: #525B62;
+    font-weight: 400;
+}
+.table td {
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #525B62;
+}
+
+.pointer {
+    cursor: pointer !important;
+}
